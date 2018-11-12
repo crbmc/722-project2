@@ -1,7 +1,7 @@
 {
-  "name": "edu.marist.gormanly.722.webapp.demo",
+  "name": "edu.marist.byrnes.722.webapp",
   "version": "1.0.0",
-  "description": "Web Application Demo",
+  "description": "WavePlayer App",
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1 -p 1337"
@@ -9,7 +9,7 @@
   "keywords": [
     ""
   ],
-  "author": "Brian Gormanly",
+  "author": "Christopher Byrnes",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^0.10.0"
