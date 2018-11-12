@@ -1,0 +1,17 @@
+{
+  "name": "edu.marist.gormanly.722.webapp.demo",
+  "version": "1.0.0",
+  "description": "Web Application Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 1337"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Brian Gormanly",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

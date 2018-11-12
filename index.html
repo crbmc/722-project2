@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Welcome to WavePlayer</h1>
+    <h1>This application will play a wav file. </h1>
+    <h1>You can manipulate the speed of the playback
+    based on the orientation of the phone</h1>
+    <h1>There are three different sounds available to be played
+    however they must be manually changed within the device-motion.js file</h1>
+    <h1>An icon for the app can be placed on the device using the "add to Home Screen function</h1>
+    <span id="absolute"></span><br />
+    <span id="alpha"></span><br />
+    <span id="beta"></span><br />
+    <span id="gamma"></span><br />
+    <button id="playButton">Play Sound</button><br />
+    <button onclick="myFunction()" type="button">Change Video</button><br>
+
+    <video id="myVideo" controls autoplay>
+      <source id="mp4_src" src="mov_bbb.mp4" type="video/mp4">
+      <source id="ogg_src" src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+    <span id="playbackSpeed">0</span><br />
+    <script> src="device-motion.js"></script>
+  </body>
+</html>
