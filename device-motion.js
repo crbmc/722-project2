@@ -47,6 +47,6 @@ playButton.addEventListener("click", buttonPressed);
 window.addEventListener("deviceorientation", handleOrientation, true);
 
 window.setInterval(() => {
-  soundPlayer.playbackRate = gAlpha / 100;
+  soundPlayer.playbackRate = gAlpha / 1000;
   //console.log("updating...");
 }, 0500);
